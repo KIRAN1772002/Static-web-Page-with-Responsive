@@ -1,0 +1,251 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 163.86px;
+    height: 47.83pxS;
+}
+nav{
+    width: 100%;
+    height: 60px;
+}
+.container-fluid{
+   flex-direction: column;
+   gap: 10px;
+    
+}
+
+.my-5{
+    width: 100%;
+
+}
+.display-4{
+    padding: 20px;
+}
+.lead{
+    padding-bottom: 62px;
+    padding-left: 20px;
+}
+
+.btn{
+    background: #1492E6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 33px;
+    opacity: 1;
+    top: 564px;
+    left: 121px;
+    width: 247px;
+    height: 65px;
+    margin-left: 20px;
+}
+
+.card-flex{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+
+}
+.card{
+    width: 25rem;
+    border-radius: 20px;
+    background-color: rgb(246, 246, 246);
+    margin: 0;
+}
+.card-title{
+    margin-top: 38px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.card-text{
+    padding: 5px;
+    padding-bottom: 30px;
+}
+.title{
+    text-align: center;
+    margin-top: 269px;
+    font: normal normal bold 35px/47px Nunito Sans;
+}
+.feature-icon{
+    margin-left: 20px;
+
+}
+.title-1{
+    text-align: center;
+    margin-top: 200px;
+    font: normal normal bold 35px/47px Nunito Sans;
+}
+.content{
+    margin-left: 100px;
+}
+.title-2{
+    text-align: center;
+    font: normal normal bold 35px/47px Nunito Sans;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.money{
+    margin-left: 50%;
+}
+.bg-light-1{
+    width: 1200px;
+    height: 363px;
+    background: #faf9f9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 42px;
+    margin-left: 100px;
+}
+.title-3{
+    display: flex;
+    gap: 10px;
+}
+.title-3 h2{
+    padding-top: 10px;
+    font: normal normal 900 25px/34px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.title-3 img{
+    width: 64px;
+    height: 63px;
+}
+.rate{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    margin-top: 70px;
+
+}
+.rate-1, .rate-2, .rate-3{
+    height: 300px;
+    width: 300px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 30px;
+
+}
+.company-logo{
+    margin-top: 300px;
+    text-align: center;
+    font: normal normal bold 35px/47px Nunito Sans;
+}
+.brand{
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 163px
+}
+.footer{
+    width: 100%;
+    height: 369px;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: end;
+    margin-top: 189px;
+
+}
+.footer p{
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    font-weight: 500;
+
+}
+.footer h6{
+    color: #FFFFFF;
+    width: 26px;
+    height: 26px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding-left: 4px;
+    margin-bottom: 40px;
+}
+
+@media (max-width:900px) and (min-width:490px){
+    .row{
+        width: 220%;
+    }
+    .display-4 {
+    margin-left: 80px;
+    }
+    .lead{
+        margin-left: 80px;
+    }
+    .btn{
+        margin-left: 80px;
+    }
+    .money{
+        margin-left: 15%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .bg-light-1{
+        width: 540px;
+        height: 1150px;
+    }
+    .rate{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width:490px){
+    .display-4 {
+    margin-left: 60px;
+    
+    }
+    .lead{
+        margin-left: 60px;
+    }
+    .blog img{
+        width: 380px;
+    }
+    .card-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 350px;
+        margin-left: 10px;
+
+    }
+    .content{
+        margin-left: 15px;
+    }
+    .btn{
+        margin-left: 40px;
+    }
+    .money{
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .bg-light-1{
+        margin-left: 10px;
+        width: 350px;
+        height: 1150px;
+    }
+    .rate{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .brand{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .brand-info{
+        margin-top: 50px;
+    }
+    .footer{
+        width: 100%;
+    }
+}
